@@ -9,11 +9,29 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/text_pending"
+        android:id="@+id/textView5"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Pending"
-        android:textColor="@color/black"
-        android:gravity="center" />
+        android:layout_height="54dp"
+        android:layout_marginTop="136dp"
+        android:background="#86B3C3"
+        android:gravity="center"
+        android:text="Pendientes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_pending"
+        android:layout_width="300dp"
+        android:layout_height="204dp"
+        android:gravity="center"
+        android:text="Aqui se mostraran credenciales pendientes por aceptar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
