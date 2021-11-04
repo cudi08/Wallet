@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class HomeActivity : AppCompatActivity() {
 
@@ -25,6 +26,11 @@ class HomeActivity : AppCompatActivity() {
         val btn3: ImageButton = findViewById(R.id.btnpend)
         btn3.setOnClickListener {
             val intent = Intent(this, PendingActivity::class.java)
+            startActivity(intent)
+        }
+        val btn4: FloatingActionButton = findViewById(R.id.floatingActionButton4)
+        btn4.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }
