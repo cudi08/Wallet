@@ -11,4 +11,7 @@
     <string name="title_activity_credentials">CredentialsActivity</string>
     <string name="title_activity_pending">PendingActivity</string>
     <string name="title_activity_home">HomeActivity</string>
+    <string name="dialog_title">Nova petició de Bet247</string>
+    <string name="ok">Enviar</string>
+    <string name="cancel">Rechazar todo</string>
 </resources>
